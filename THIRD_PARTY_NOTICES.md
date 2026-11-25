@@ -1,0 +1,7 @@
+# Source and media credits
+
+Oxide Computer Company and the Quartz contributors developed the reference SHA3-256 implementation. Nathanael Huffman introduced the SHA3 work in [Quartz pull request 516](https://github.com/oxidecomputer/quartz/pull/516). The VHDL and upstream documentation here are pinned to Quartz revision [c0ccf08525f30c43f4c773c2295dabe80f97cd0e](https://github.com/oxidecomputer/quartz/tree/c0ccf08525f30c43f4c773c2295dabe80f97cd0e). Original file notices are retained. [Source inventory](reference/oxide/SOURCE.json) · [Mozilla Public License 2.0](reference/oxide/MPL-2.0.txt)
+
+The optional digest-register experiment is a separately marked MPL-2.0 modification. The headline baseline uses the unchanged Quartz source. The independent compact SystemVerilog core, local adapters, test harnesses and engineering evidence were developed in the FPGA DFX Hash Accelerator project with AI assistance. Oxide’s original SPI-NOR application has a different data source from the Zybo experiment. [Modification record](rtl/sha3/oxide_no_digest/SOURCE.json) · [Project MIT license](LICENSE)
+
+The 4:08 film credits “Cyber Runner” by 2050, supplied through the project owner’s Artlist license. It includes generated narration, physical board footage and a pointer derived from Lucide’s `mouse-pointer-2` icon. The embedded soundtrack retains its separate rights. [Lucide and Feather notices](licenses/lucide.txt)

@@ -1,0 +1,75 @@
+{
+  "simulator": "NVC 1.23.1",
+  "reference": "Python hashlib.sha3_256",
+  "seed": 20261111,
+  "source_revision": "c0ccf08525f30c43f4c773c2295dabe80f97cd0e",
+  "variant": "baseline",
+  "core_source": "reference/oxide/hdl/ip/vhd/sha3/sha3_256.vhd",
+  "core_sha256": "14b59bbe2701626197ae1a5053a769a60d9dad4b484b1a520c7cfbfc5d35615b",
+  "cycle_convention": "Inclusive clocks from first accepted byte to final byte / digest_valid.",
+  "empty_input": "Unsupported by unchanged upstream stream port; not a baseline passing vector.",
+  "additional_checks": [
+    "stable digest",
+    "messages without init",
+    "source gaps",
+    "backpressure",
+    "held init with active input",
+    "async reset during absorb",
+    "async reset during permutation",
+    "recovery"
+  ],
+  "configurations": [
+    {
+      "double_buffer": false,
+      "source_gaps": false,
+      "passed_cases": 40,
+      "largest_message": {
+        "case": 19,
+        "bytes": 65536,
+        "input_cycles": 78042,
+        "total_cycles": 78084,
+        "input_stalls": 12506
+      },
+      "largest_message_MB_s_at_100MHz": 83.93012653040316
+    },
+    {
+      "double_buffer": false,
+      "source_gaps": true,
+      "passed_cases": 40,
+      "largest_message": {
+        "case": 19,
+        "bytes": 65536,
+        "input_cycles": 87335,
+        "total_cycles": 87377,
+        "input_stalls": 12437
+      },
+      "largest_message_MB_s_at_100MHz": 75.00371951428866
+    },
+    {
+      "double_buffer": true,
+      "source_gaps": false,
+      "passed_cases": 40,
+      "largest_message": {
+        "case": 19,
+        "bytes": 65536,
+        "input_cycles": 65536,
+        "total_cycles": 65578,
+        "input_stalls": 0
+      },
+      "largest_message_MB_s_at_100MHz": 99.93595413095855
+    },
+    {
+      "double_buffer": true,
+      "source_gaps": true,
+      "passed_cases": 40,
+      "largest_message": {
+        "case": 19,
+        "bytes": 65536,
+        "input_cycles": 74898,
+        "total_cycles": 74940,
+        "input_stalls": 0
+      },
+      "largest_message_MB_s_at_100MHz": 87.4512943688284
+    }
+  ]
+}

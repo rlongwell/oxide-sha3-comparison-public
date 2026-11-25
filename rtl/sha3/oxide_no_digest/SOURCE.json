@@ -1,0 +1,8 @@
+{
+  "upstream_revision": "c0ccf08525f30c43f4c773c2295dabe80f97cd0e",
+  "upstream_path": "hdl/ip/vhd/sha3/sha3_256.vhd",
+  "upstream_sha256": "14b59bbe2701626197ae1a5053a769a60d9dad4b484b1a520c7cfbfc5d35615b",
+  "license": "MPL-2.0",
+  "modification": "Remove permute_reg.dig and its reset/update; drive digest_of(perm_reg.st) while dv, zero otherwise. Algorithm, buffering, and valid/ready timing unchanged.",
+  "modified_sha256": "d16b7d2befc241f45da95cb27ff398d5761b5a054cd9a6fd0f1cbbfe72404bad"
+}

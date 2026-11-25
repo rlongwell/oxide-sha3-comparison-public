@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/oxidecomputer/quartz",
+  "revision": "c0ccf08525f30c43f4c773c2295dabe80f97cd0e",
+  "retrieved_utc": "2026-11-12",
+  "license": "MPL-2.0",
+  "license_url": "https://www.mozilla.org/media/MPL/2.0/index.815ca599c9df.txt",
+  "files": [
+    {
+      "path": "hdl/ip/vhd/sha3/sha3_256.vhd",
+      "sha256": "14b59bbe2701626197ae1a5053a769a60d9dad4b484b1a520c7cfbfc5d35615b",
+      "url": "https://raw.githubusercontent.com/oxidecomputer/quartz/c0ccf08525f30c43f4c773c2295dabe80f97cd0e/hdl/ip/vhd/sha3/sha3_256.vhd"
+    },
+    {
+      "path": "hdl/ip/vhd/sha3/keccak_pkg.vhd",
+      "sha256": "09f14f9c96fb5ad8a86c2e1a0908c034bfbda1e9d21a4d35ed39ca7f7155e0d0",
+      "url": "https://raw.githubusercontent.com/oxidecomputer/quartz/c0ccf08525f30c43f4c773c2295dabe80f97cd0e/hdl/ip/vhd/sha3/keccak_pkg.vhd"
+    },
+    {
+      "path": "hdl/ip/vhd/sha3/docs/sha3_256.adoc",
+      "sha256": "8693e3a8a4f712fd8ec0913f3aa37cdaffa28737f5da987b5d8db1097fca6fec",
+      "url": "https://raw.githubusercontent.com/oxidecomputer/quartz/c0ccf08525f30c43f4c773c2295dabe80f97cd0e/hdl/ip/vhd/sha3/docs/sha3_256.adoc"
+    },
+    {
+      "path": "hdl/ip/vhd/axi_blocks/axist_if_2k19_pkg.vhd",
+      "sha256": "ddec17f72cfc6b64efde72fda45fa898c55e94c4b46ffc6cb9af2012e310dad5",
+      "url": "https://raw.githubusercontent.com/oxidecomputer/quartz/c0ccf08525f30c43f4c773c2295dabe80f97cd0e/hdl/ip/vhd/axi_blocks/axist_if_2k19_pkg.vhd"
+    },
+    {
+      "path": "hdl/ip/vhd/common/utils/calc_pkg.vhd",
+      "sha256": "4bac15f2cd58fa16e72742d30d07aefc49c61f7bbaca018e146c74af8d61d7fc",
+      "url": "https://raw.githubusercontent.com/oxidecomputer/quartz/c0ccf08525f30c43f4c773c2295dabe80f97cd0e/hdl/ip/vhd/common/utils/calc_pkg.vhd"
+    }
+  ],
+  "license_sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+}

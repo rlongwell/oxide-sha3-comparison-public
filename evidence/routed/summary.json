@@ -1,0 +1,126 @@
+{
+  "clock_MHz": 100,
+  "kind": "Vivado routed implementation; physical performance measured separately",
+  "configurations": {
+    "compact": {
+      "resources": {
+        "net_system_top": {
+          "LUT": 8571,
+          "FF": 6499,
+          "RAMB36": 65,
+          "RAMB18": 1,
+          "DSP": 0
+        },
+        "u_hash": {
+          "LUT": 4572,
+          "FF": 1774,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "DSP": 0
+        },
+        "u_ingress": {
+          "LUT": 1051,
+          "FF": 1341,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "DSP": 0
+        }
+      },
+      "Setup_slack_ns": 0.169,
+      "Hold_slack_ns": 0.016,
+      "PW_slack_ns": 3.75,
+      "routed_checkpoint_sha256": "277edc532e7c85eed57a67d35b55acef38d3ad3706efd601c0c2741ac626fa67"
+    },
+    "oxide": {
+      "resources": {
+        "net_system_top": {
+          "LUT": 9853,
+          "FF": 8947,
+          "RAMB36": 65,
+          "RAMB18": 1,
+          "DSP": 0
+        },
+        "u_hash": {
+          "LUT": 5854,
+          "FF": 4222,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "DSP": 0
+        },
+        "u_ingress": {
+          "LUT": 1051,
+          "FF": 1341,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "DSP": 0
+        }
+      },
+      "Setup_slack_ns": 0.161,
+      "Hold_slack_ns": 0.016,
+      "PW_slack_ns": 3.75,
+      "routed_checkpoint_sha256": "f078c3baa2f516a80c9179d9d06bf3dcee1098218ff9cd8df6d076c5ffcb5df6"
+    },
+    "sha256": {
+      "resources": {
+        "net_system_top": {
+          "LUT": 5779,
+          "FF": 5974,
+          "RAMB36": 65,
+          "RAMB18": 1,
+          "DSP": 0
+        },
+        "u_hash": {
+          "LUT": 1780,
+          "FF": 1249,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "DSP": 0
+        },
+        "u_ingress": {
+          "LUT": 1051,
+          "FF": 1341,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "DSP": 0
+        }
+      },
+      "Setup_slack_ns": 0.141,
+      "Hold_slack_ns": 0.016,
+      "PW_slack_ns": 3.75,
+      "routed_checkpoint_sha256": "1d05665e22d7981612656a1d6943bcca7898891f0e41a784e0b0b0973b1c215a"
+    },
+    "blake2s": {
+      "resources": {
+        "net_system_top": {
+          "LUT": 8168,
+          "FF": 6391,
+          "RAMB36": 65,
+          "RAMB18": 1,
+          "DSP": 0
+        },
+        "u_hash": {
+          "LUT": 4169,
+          "FF": 1666,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "DSP": 0
+        },
+        "u_ingress": {
+          "LUT": 1051,
+          "FF": 1341,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "DSP": 0
+        }
+      },
+      "Setup_slack_ns": 0.11,
+      "Hold_slack_ns": 0.016,
+      "PW_slack_ns": 3.75,
+      "routed_checkpoint_sha256": "e25f61d7e77a922a261ddc9cd040a320c224d3dc7a3befcadd65af6c3f078001"
+    }
+  },
+  "hash_partition_reduction_percent": {
+    "LUT": 21.89955585924155,
+    "FF": 57.98199905258172
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "source_revision": "c0ccf08525f30c43f4c773c2295dabe80f97cd0e",
+  "variant": "oxide_no_digest",
+  "core_source": "rtl/sha3/oxide_no_digest/sha3_256.vhd",
+  "core_sha256": "d16b7d2befc241f45da95cb27ff398d5761b5a054cd9a6fd0f1cbbfe72404bad",
+  "scope": "Standalone flattened-port core OOC synthesis, placement and routing. No PS, DMA, DFX partition or board I/O.",
+  "options": "Vivado 2024.2; rebuilt hierarchy; default synth/opt/place/phys_opt/route; maxThreads=4; HD.CLK_SRC=BUFGCTRL_X0Y0",
+  "boundary_timing": "OOC signal ports have no physical partition-pin placement; I/O budgets omit external routing. Register timing is the standalone core comparison.",
+  "reset_timing": "External asynchronous reset is false-pathed; deassertion synchronization belongs to system integration.",
+  "frequency_estimate": "1000/(10ns-register setup slack), an estimate from one routed run, not a validated maximum operating frequency.",
+  "configurations": [
+    {
+      "double_buffer": false,
+      "part": "xc7z020clg400-1",
+      "vivado": "2024.2",
+      "period_ns": 10.0,
+      "input_delay_ns": 2.0,
+      "output_delay_ns": 2.0,
+      "setup_wns_ns": 0.743,
+      "hold_whs_ns": 0.091,
+      "register_setup_wns_ns": 1.114,
+      "register_data_path_delay_ns": 8.782,
+      "synthesis": {
+        "lut": 4381,
+        "ff": 2724,
+        "bram_tile": 0,
+        "dsp": 0
+      },
+      "routed": {
+        "lut": 4369,
+        "ff": 2724,
+        "bram_tile": 0,
+        "dsp": 0
+      },
+      "estimated_register_fmax_mhz": 112.537,
+      "route_error_nets": 0,
+      "drc_errors": 0,
+      "timing_met": true
+    },
+    {
+      "double_buffer": true,
+      "part": "xc7z020clg400-1",
+      "vivado": "2024.2",
+      "period_ns": 10.0,
+      "input_delay_ns": 2.0,
+      "output_delay_ns": 2.0,
+      "setup_wns_ns": 0.787,
+      "hold_whs_ns": 0.142,
+      "register_setup_wns_ns": 1.481,
+      "register_data_path_delay_ns": 8.281,
+      "synthesis": {
+        "lut": 5237,
+        "ff": 3820,
+        "bram_tile": 0,
+        "dsp": 0
+      },
+      "routed": {
+        "lut": 5223,
+        "ff": 3820,
+        "bram_tile": 0,
+        "dsp": 0
+      },
+      "estimated_register_fmax_mhz": 117.385,
+      "route_error_nets": 0,
+      "drc_errors": 0,
+      "timing_met": true
+    }
+  ]
+}
